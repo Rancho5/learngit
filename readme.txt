@@ -18,5 +18,11 @@ git reset HEAD <file> #放入了暂存区，还没有commit时，可以使用此
 git remote add origin git@github.com:user-name/repo-name.git #关联远程库
 git push -u origin master #第一次推送master分支的所有内容
 git push origin master #之后每次推送最新修改
-
 git clone git@github.com:server-name/repo-name.git #从github克隆
+
+git branch #查看分支
+git branch <name> #创建分支
+git checkout <name> #切换分支
+git checkout -b <name> #创建+切换分支
+git merge <name> #合并指定的分支到当前分支
+git branch -d <name> #删除分支
