@@ -24,8 +24,8 @@ git clone git@github.com:server-name/repo-name.git #从github克隆
 
 git branch #查看分支
 git branch <name> #创建分支
-git checkout <name> #切换分支
-git checkout -b <name> #创建+切换分支
+git checkout <name> #切换分支  或  git switch <name>
+git checkout -b <name> #创建+切换分支  或  git switch -c <name> 
 git merge <name> #合并指定的分支到当前分支
 git branch -d <name> #删除分支
 
